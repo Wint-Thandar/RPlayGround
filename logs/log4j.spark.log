@@ -1,0 +1,1570 @@
+22/11/24 21:11:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+22/11/24 21:11:39 INFO SecurityManager: Changing view acls to: wintt
+22/11/24 21:11:39 INFO SecurityManager: Changing modify acls to: wintt
+22/11/24 21:11:39 INFO SecurityManager: Changing view acls groups to: 
+22/11/24 21:11:39 INFO SecurityManager: Changing modify acls groups to: 
+22/11/24 21:11:39 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wintt); groups with view permissions: Set(); users  with modify permissions: Set(wintt); groups with modify permissions: Set()
+22/11/24 21:11:40 INFO HiveConf: Found configuration file file:/C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/conf/hive-site.xml
+22/11/24 21:11:40 INFO SparkContext: Running Spark version 3.1.3
+22/11/24 21:11:41 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+22/11/24 21:11:41 INFO ResourceUtils: ==============================================================
+22/11/24 21:11:41 INFO ResourceUtils: No custom resources configured for spark.driver.
+22/11/24 21:11:41 INFO ResourceUtils: ==============================================================
+22/11/24 21:11:41 INFO SparkContext: Submitted application: sparklyr
+22/11/24 21:11:41 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+22/11/24 21:11:41 INFO ResourceProfile: Limiting resource is cpu
+22/11/24 21:11:41 INFO ResourceProfileManager: Added ResourceProfile id: 0
+22/11/24 21:11:41 INFO SecurityManager: Changing view acls to: wintt
+22/11/24 21:11:41 INFO SecurityManager: Changing modify acls to: wintt
+22/11/24 21:11:41 INFO SecurityManager: Changing view acls groups to: 
+22/11/24 21:11:41 INFO SecurityManager: Changing modify acls groups to: 
+22/11/24 21:11:41 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wintt); groups with view permissions: Set(); users  with modify permissions: Set(wintt); groups with modify permissions: Set()
+22/11/24 21:11:41 INFO Utils: Successfully started service 'sparkDriver' on port 52590.
+22/11/24 21:11:41 INFO SparkEnv: Registering MapOutputTracker
+22/11/24 21:11:41 INFO SparkEnv: Registering BlockManagerMaster
+22/11/24 21:11:41 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/11/24 21:11:41 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+22/11/24 21:11:41 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+22/11/24 21:11:41 INFO DiskBlockManager: Created local directory at C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\blockmgr-736a9fd3-addd-48b8-9780-77b16289113d
+22/11/24 21:11:41 INFO MemoryStore: MemoryStore started with capacity 12.5 GiB
+22/11/24 21:11:41 INFO SparkEnv: Registering OutputCommitCoordinator
+22/11/24 21:11:41 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/local]. Please check your configured local directories.
+22/11/24 21:11:41 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+22/11/24 21:11:41 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://WintThandar:4040
+22/11/24 21:11:41 INFO SparkContext: Added JAR file:/C:/Users/wintt/AppData/Local/R/win-library/4.2/sparklyr/java/sparklyr-master-2.12.jar at spark://WintThandar:52590/jars/sparklyr-master-2.12.jar with timestamp 1669300900983
+22/11/24 21:11:41 INFO Executor: Starting executor ID driver on host WintThandar
+22/11/24 21:11:41 INFO Executor: Fetching spark://WintThandar:52590/jars/sparklyr-master-2.12.jar with timestamp 1669300900983
+22/11/24 21:11:41 INFO TransportClientFactory: Successfully created connection to WintThandar/192.168.1.8:52590 after 12 ms (0 ms spent in bootstraps)
+22/11/24 21:11:41 INFO Utils: Fetching spark://WintThandar:52590/jars/sparklyr-master-2.12.jar to C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9\fetchFileTemp745116246551651696.tmp
+22/11/24 21:11:41 INFO Executor: Adding file:/C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/local/spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5/userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9/sparklyr-master-2.12.jar to class loader
+22/11/24 21:11:41 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52639.
+22/11/24 21:11:41 INFO NettyBlockTransferService: Server created on WintThandar:52639
+22/11/24 21:11:41 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/11/24 21:11:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, WintThandar, 52639, None)
+22/11/24 21:11:41 INFO BlockManagerMasterEndpoint: Registering block manager WintThandar:52639 with 12.5 GiB RAM, BlockManagerId(driver, WintThandar, 52639, None)
+22/11/24 21:11:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, WintThandar, 52639, None)
+22/11/24 21:11:41 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, WintThandar, 52639, None)
+22/11/24 21:11:41 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive') to the value of spark.sql.warehouse.dir ('C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive').
+22/11/24 21:11:41 INFO SharedState: Warehouse path is 'C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive'.
+22/11/24 21:11:44 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.7 using Spark classes.
+22/11/24 21:11:44 INFO HiveConf: Found configuration file file:/C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/conf/hive-site.xml
+22/11/24 21:11:44 INFO SessionState: Created HDFS directory: C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive/wintt/5b284546-c200-42da-9774-c20d64b52f6b
+22/11/24 21:11:44 INFO SessionState: Created local directory: C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive/5b284546-c200-42da-9774-c20d64b52f6b
+22/11/24 21:11:44 INFO SessionState: Created HDFS directory: C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive/wintt/5b284546-c200-42da-9774-c20d64b52f6b/_tmp_space.db
+22/11/24 21:11:44 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.7) is C:/Users/wintt/AppData/Local/spark/spark-3.1.3-bin-hadoop3.2/tmp/hive
+22/11/24 21:11:45 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+22/11/24 21:11:45 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+22/11/24 21:11:45 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+22/11/24 21:11:45 INFO ObjectStore: ObjectStore, initialize called
+22/11/24 21:11:45 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+22/11/24 21:11:45 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+22/11/24 21:11:46 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+22/11/24 21:11:47 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+22/11/24 21:11:47 INFO ObjectStore: Initialized ObjectStore
+22/11/24 21:11:47 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+22/11/24 21:11:47 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@192.168.1.8
+22/11/24 21:11:47 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+22/11/24 21:11:47 INFO HiveMetaStore: Added admin role in metastore
+22/11/24 21:11:47 INFO HiveMetaStore: Added public role in metastore
+22/11/24 21:11:47 INFO HiveMetaStore: No user is added in admin role, since config is empty
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_all_functions
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_all_functions	
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_database: global_temp
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: global_temp	
+22/11/24 21:11:47 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:11:47 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+22/11/24 21:11:47 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+22/11/24 21:11:51 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:11:51 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:11:51 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:11:51 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:11:51 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+22/11/24 21:11:51 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+22/11/24 21:11:55 WARN ProcfsMetricsGetter: Exception when trying to compute pagesize, as a result reporting of ProcessTree metrics is stopped
+22/11/24 21:12:19 INFO CodeGenerator: Code generated in 176.3946 ms
+22/11/24 21:12:19 INFO SparkContext: Starting job: collect at utils.scala:26
+22/11/24 21:12:19 INFO DAGScheduler: Got job 0 (collect at utils.scala:26) with 1 output partitions
+22/11/24 21:12:19 INFO DAGScheduler: Final stage: ResultStage 0 (collect at utils.scala:26)
+22/11/24 21:12:19 INFO DAGScheduler: Parents of final stage: List()
+22/11/24 21:12:19 INFO DAGScheduler: Missing parents: List()
+22/11/24 21:12:19 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at collect at utils.scala:26), which has no missing parents
+22/11/24 21:12:19 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 6.4 KiB, free 12.5 GiB)
+22/11/24 21:12:19 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.2 KiB, free 12.5 GiB)
+22/11/24 21:12:19 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on WintThandar:52639 (size: 3.2 KiB, free: 12.5 GiB)
+22/11/24 21:12:19 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:12:19 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:12:19 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+22/11/24 21:12:20 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (WintThandar, executor driver, partition 0, PROCESS_LOCAL, 4689 bytes) taskResourceAssignments Map()
+22/11/24 21:12:20 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+22/11/24 21:12:20 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1311 bytes result sent to driver
+22/11/24 21:12:20 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 261 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:12:20 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+22/11/24 21:12:20 INFO DAGScheduler: ResultStage 0 (collect at utils.scala:26) finished in 0.686 s
+22/11/24 21:12:20 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+22/11/24 21:12:20 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+22/11/24 21:12:20 INFO DAGScheduler: Job 0 finished: collect at utils.scala:26, took 0.729640 s
+22/11/24 21:12:20 INFO CodeGenerator: Code generated in 13.3029 ms
+22/11/24 21:12:20 INFO SparkContext: Starting job: collect at utils.scala:26
+22/11/24 21:12:20 INFO DAGScheduler: Got job 1 (collect at utils.scala:26) with 1 output partitions
+22/11/24 21:12:20 INFO DAGScheduler: Final stage: ResultStage 1 (collect at utils.scala:26)
+22/11/24 21:12:20 INFO DAGScheduler: Parents of final stage: List()
+22/11/24 21:12:20 INFO DAGScheduler: Missing parents: List()
+22/11/24 21:12:20 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at collect at utils.scala:26), which has no missing parents
+22/11/24 21:12:20 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 6.4 KiB, free 12.5 GiB)
+22/11/24 21:12:20 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 3.2 KiB, free 12.5 GiB)
+22/11/24 21:12:20 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on WintThandar:52639 (size: 3.2 KiB, free: 12.5 GiB)
+22/11/24 21:12:20 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:12:20 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:12:20 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+22/11/24 21:12:20 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (WintThandar, executor driver, partition 0, PROCESS_LOCAL, 4689 bytes) taskResourceAssignments Map()
+22/11/24 21:12:20 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+22/11/24 21:12:20 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1311 bytes result sent to driver
+22/11/24 21:12:20 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 7 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:12:20 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+22/11/24 21:12:20 INFO DAGScheduler: ResultStage 1 (collect at utils.scala:26) finished in 0.015 s
+22/11/24 21:12:20 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+22/11/24 21:12:20 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+22/11/24 21:12:20 INFO DAGScheduler: Job 1 finished: collect at utils.scala:26, took 0.018340 s
+22/11/24 21:12:20 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:12:20 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:12:20 INFO HiveMetaStore: 0: get_database: default
+22/11/24 21:12:20 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_database: default	
+22/11/24 21:12:20 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+22/11/24 21:12:20 INFO audit: ugi=wintt	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+22/11/24 21:12:20 INFO CodeGenerator: Code generated in 10.8701 ms
+22/11/24 21:12:20 INFO CodeGenerator: Code generated in 12.0557 ms
+22/11/24 21:12:34 INFO CodeGenerator: Code generated in 8.924 ms
+22/11/24 21:12:34 INFO CodeGenerator: Code generated in 8.092 ms
+22/11/24 21:12:34 INFO CodeGenerator: Code generated in 8.4648 ms
+22/11/24 21:12:34 INFO SparkContext: Starting job: count at <unknown>:0
+22/11/24 21:12:35 INFO DAGScheduler: Registering RDD 13 (count at <unknown>:0) as input to shuffle 0
+22/11/24 21:12:35 INFO DAGScheduler: Got job 2 (count at <unknown>:0) with 1 output partitions
+22/11/24 21:12:35 INFO DAGScheduler: Final stage: ResultStage 3 (count at <unknown>:0)
+22/11/24 21:12:35 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+22/11/24 21:12:35 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 2)
+22/11/24 21:12:35 INFO DAGScheduler: Submitting ShuffleMapStage 2 (MapPartitionsRDD[13] at count at <unknown>:0), which has no missing parents
+22/11/24 21:12:35 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 16.5 KiB, free 12.5 GiB)
+22/11/24 21:12:35 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.3 KiB, free 12.5 GiB)
+22/11/24 21:12:35 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on WintThandar:52639 (size: 7.3 KiB, free: 12.5 GiB)
+22/11/24 21:12:35 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:12:35 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[13] at count at <unknown>:0) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:12:35 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+22/11/24 21:12:35 INFO BlockManagerInfo: Removed broadcast_1_piece0 on WintThandar:52639 in memory (size: 3.2 KiB, free: 12.5 GiB)
+22/11/24 21:12:35 INFO BlockManagerInfo: Removed broadcast_0_piece0 on WintThandar:52639 in memory (size: 3.2 KiB, free: 12.5 GiB)
+22/11/24 21:12:38 WARN TaskSetManager: Stage 2 contains a task of very large size (299652 KiB). The maximum recommended task size is 1000 KiB.
+22/11/24 21:12:38 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (WintThandar, executor driver, partition 0, PROCESS_LOCAL, 306844269 bytes) taskResourceAssignments Map()
+22/11/24 21:12:38 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)
+22/11/24 21:12:43 INFO MemoryStore: Block rdd_8_0 stored as values in memory (estimated size 43.0 MiB, free 12.5 GiB)
+22/11/24 21:12:43 INFO BlockManagerInfo: Added rdd_8_0 in memory on WintThandar:52639 (size: 43.0 MiB, free: 12.5 GiB)
+22/11/24 21:12:44 INFO CodeGenerator: Code generated in 1012.0419 ms
+22/11/24 21:12:44 INFO CodeGenerator: Code generated in 14.3379 ms
+22/11/24 21:12:44 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 2088 bytes result sent to driver
+22/11/24 21:12:44 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 9695 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:12:44 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+22/11/24 21:12:44 INFO DAGScheduler: ShuffleMapStage 2 (count at <unknown>:0) finished in 9.717 s
+22/11/24 21:12:44 INFO DAGScheduler: looking for newly runnable stages
+22/11/24 21:12:44 INFO DAGScheduler: running: Set()
+22/11/24 21:12:44 INFO DAGScheduler: waiting: Set(ResultStage 3)
+22/11/24 21:12:44 INFO DAGScheduler: failed: Set()
+22/11/24 21:12:44 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[16] at count at <unknown>:0), which has no missing parents
+22/11/24 21:12:44 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 10.1 KiB, free 12.5 GiB)
+22/11/24 21:12:44 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 12.5 GiB)
+22/11/24 21:12:44 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on WintThandar:52639 (size: 5.0 KiB, free: 12.5 GiB)
+22/11/24 21:12:44 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:12:44 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[16] at count at <unknown>:0) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:12:44 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+22/11/24 21:12:44 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 3) (WintThandar, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:12:44 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+22/11/24 21:12:44 INFO ShuffleBlockFetcherIterator: Getting 1 (60.0 B) non-empty blocks including 1 (60.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:12:44 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 7 ms
+22/11/24 21:12:44 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 2605 bytes result sent to driver
+22/11/24 21:12:44 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 3) in 45 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:12:44 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+22/11/24 21:12:44 INFO DAGScheduler: ResultStage 3 (count at <unknown>:0) finished in 0.052 s
+22/11/24 21:12:44 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+22/11/24 21:12:44 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+22/11/24 21:12:44 INFO DAGScheduler: Job 2 finished: count at <unknown>:0, took 9.852421 s
+22/11/24 21:15:28 INFO SparkContext: Starting job: collect at utils.scala:26
+22/11/24 21:15:28 INFO DAGScheduler: Got job 3 (collect at utils.scala:26) with 1 output partitions
+22/11/24 21:15:28 INFO DAGScheduler: Final stage: ResultStage 4 (collect at utils.scala:26)
+22/11/24 21:15:28 INFO DAGScheduler: Parents of final stage: List()
+22/11/24 21:15:28 INFO DAGScheduler: Missing parents: List()
+22/11/24 21:15:28 INFO DAGScheduler: Submitting ResultStage 4 (MapPartitionsRDD[20] at collect at utils.scala:26), which has no missing parents
+22/11/24 21:15:28 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 12.1 KiB, free 12.5 GiB)
+22/11/24 21:15:28 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 5.8 KiB, free 12.5 GiB)
+22/11/24 21:15:28 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on WintThandar:52639 (size: 5.8 KiB, free: 12.5 GiB)
+22/11/24 21:15:28 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:15:28 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[20] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:15:28 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks resource profile 0
+22/11/24 21:15:28 INFO BlockManagerInfo: Removed broadcast_3_piece0 on WintThandar:52639 in memory (size: 5.0 KiB, free: 12.5 GiB)
+22/11/24 21:15:30 WARN TaskSetManager: Stage 4 contains a task of very large size (299652 KiB). The maximum recommended task size is 1000 KiB.
+22/11/24 21:15:30 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 4) (WintThandar, executor driver, partition 0, PROCESS_LOCAL, 306844280 bytes) taskResourceAssignments Map()
+22/11/24 21:15:30 INFO Executor: Running task 0.0 in stage 4.0 (TID 4)
+22/11/24 21:15:31 INFO BlockManager: Found block rdd_8_0 locally
+22/11/24 21:15:31 INFO CodeGenerator: Code generated in 17.6004 ms
+22/11/24 21:15:31 INFO Executor: 1 block locks were not released by task 0.0 in stage 4.0 (TID 4)
+[rdd_8_0]
+22/11/24 21:15:31 INFO Executor: Finished task 0.0 in stage 4.0 (TID 4). 1802 bytes result sent to driver
+22/11/24 21:15:31 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 4) in 3414 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:15:31 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+22/11/24 21:15:31 INFO DAGScheduler: ResultStage 4 (collect at utils.scala:26) finished in 3.414 s
+22/11/24 21:15:31 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+22/11/24 21:15:31 INFO TaskSchedulerImpl: Killing all running tasks in stage 4: Stage finished
+22/11/24 21:15:31 INFO DAGScheduler: Job 3 finished: collect at utils.scala:26, took 3.416638 s
+22/11/24 21:15:31 INFO CodeGenerator: Code generated in 7.9639 ms
+22/11/24 21:19:51 INFO CodeGenerator: Code generated in 56.7428 ms
+22/11/24 21:19:51 INFO CodeGenerator: Code generated in 8.184 ms
+22/11/24 21:19:51 INFO SparkContext: Starting job: collect at utils.scala:26
+22/11/24 21:19:51 INFO DAGScheduler: Registering RDD 24 (collect at utils.scala:26) as input to shuffle 1
+22/11/24 21:19:51 INFO DAGScheduler: Got job 4 (collect at utils.scala:26) with 200 output partitions
+22/11/24 21:19:51 INFO DAGScheduler: Final stage: ResultStage 6 (collect at utils.scala:26)
+22/11/24 21:19:51 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+22/11/24 21:19:51 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 5)
+22/11/24 21:19:51 INFO DAGScheduler: Submitting ShuffleMapStage 5 (MapPartitionsRDD[24] at collect at utils.scala:26), which has no missing parents
+22/11/24 21:19:51 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 14.0 KiB, free 12.5 GiB)
+22/11/24 21:19:51 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 6.7 KiB, free 12.5 GiB)
+22/11/24 21:19:51 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on WintThandar:52639 (size: 6.7 KiB, free: 12.5 GiB)
+22/11/24 21:19:51 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:19:51 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[24] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0))
+22/11/24 21:19:51 INFO TaskSchedulerImpl: Adding task set 5.0 with 1 tasks resource profile 0
+22/11/24 21:19:54 WARN TaskSetManager: Stage 5 contains a task of very large size (299652 KiB). The maximum recommended task size is 1000 KiB.
+22/11/24 21:19:54 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 5) (WintThandar, executor driver, partition 0, PROCESS_LOCAL, 306844269 bytes) taskResourceAssignments Map()
+22/11/24 21:19:54 INFO Executor: Running task 0.0 in stage 5.0 (TID 5)
+22/11/24 21:19:54 INFO BlockManager: Found block rdd_8_0 locally
+22/11/24 21:19:54 INFO CodeGenerator: Code generated in 6.4874 ms
+22/11/24 21:19:55 INFO Executor: Finished task 0.0 in stage 5.0 (TID 5). 2124 bytes result sent to driver
+22/11/24 21:19:55 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 5) in 4403 ms on WintThandar (executor driver) (1/1)
+22/11/24 21:19:55 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+22/11/24 21:19:55 INFO DAGScheduler: ShuffleMapStage 5 (collect at utils.scala:26) finished in 4.407 s
+22/11/24 21:19:55 INFO DAGScheduler: looking for newly runnable stages
+22/11/24 21:19:55 INFO DAGScheduler: running: Set()
+22/11/24 21:19:55 INFO DAGScheduler: waiting: Set(ResultStage 6)
+22/11/24 21:19:55 INFO DAGScheduler: failed: Set()
+22/11/24 21:19:55 INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[29] at collect at utils.scala:26), which has no missing parents
+22/11/24 21:19:55 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 69.2 KiB, free 12.5 GiB)
+22/11/24 21:19:55 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 28.0 KiB, free 12.5 GiB)
+22/11/24 21:19:55 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on WintThandar:52639 (size: 28.0 KiB, free: 12.5 GiB)
+22/11/24 21:19:55 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1433
+22/11/24 21:19:55 INFO DAGScheduler: Submitting 200 missing tasks from ResultStage 6 (MapPartitionsRDD[29] at collect at utils.scala:26) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+22/11/24 21:19:55 INFO TaskSchedulerImpl: Adding task set 6.0 with 200 tasks resource profile 0
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 6) (WintThandar, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 1.0 in stage 6.0 (TID 7) (WintThandar, executor driver, partition 1, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 2.0 in stage 6.0 (TID 8) (WintThandar, executor driver, partition 2, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 3.0 in stage 6.0 (TID 9) (WintThandar, executor driver, partition 3, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 4.0 in stage 6.0 (TID 10) (WintThandar, executor driver, partition 4, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO TaskSetManager: Starting task 5.0 in stage 6.0 (TID 11) (WintThandar, executor driver, partition 5, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:55 INFO Executor: Running task 0.0 in stage 6.0 (TID 6)
+22/11/24 21:19:55 INFO Executor: Running task 2.0 in stage 6.0 (TID 8)
+22/11/24 21:19:55 INFO Executor: Running task 1.0 in stage 6.0 (TID 7)
+22/11/24 21:19:55 INFO Executor: Running task 3.0 in stage 6.0 (TID 9)
+22/11/24 21:19:55 INFO Executor: Running task 4.0 in stage 6.0 (TID 10)
+22/11/24 21:19:55 INFO Executor: Running task 5.0 in stage 6.0 (TID 11)
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (194.1 KiB) non-empty blocks including 1 (194.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:55 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+22/11/24 21:19:55 INFO CodeGenerator: Code generated in 10.1025 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 7.4281 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 5.7254 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 8.7889 ms
+22/11/24 21:19:56 INFO BlockManagerInfo: Removed broadcast_5_piece0 on WintThandar:52639 in memory (size: 6.7 KiB, free: 12.5 GiB)
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 3.7987 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 4.4778 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 4.5848 ms
+22/11/24 21:19:56 INFO CodeGenerator: Code generated in 6.1052 ms
+22/11/24 21:19:56 INFO Executor: Finished task 0.0 in stage 6.0 (TID 6). 4356 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 6.0 in stage 6.0 (TID 12) (WintThandar, executor driver, partition 6, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 6) in 393 ms on WintThandar (executor driver) (1/200)
+22/11/24 21:19:56 INFO Executor: Running task 6.0 in stage 6.0 (TID 12)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 2.0 in stage 6.0 (TID 8). 4374 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 7.0 in stage 6.0 (TID 13) (WintThandar, executor driver, partition 7, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 7.0 in stage 6.0 (TID 13)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 2.0 in stage 6.0 (TID 8) in 402 ms on WintThandar (executor driver) (2/200)
+22/11/24 21:19:56 INFO Executor: Finished task 5.0 in stage 6.0 (TID 11). 4643 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 3.0 in stage 6.0 (TID 9). 4241 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 8.0 in stage 6.0 (TID 14) (WintThandar, executor driver, partition 8, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 5.0 in stage 6.0 (TID 11) in 404 ms on WintThandar (executor driver) (3/200)
+22/11/24 21:19:56 INFO Executor: Running task 8.0 in stage 6.0 (TID 14)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 9.0 in stage 6.0 (TID 15) (WintThandar, executor driver, partition 9, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 9.0 in stage 6.0 (TID 15)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 3.0 in stage 6.0 (TID 9) in 407 ms on WintThandar (executor driver) (4/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 4.0 in stage 6.0 (TID 10). 4626 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 1.0 in stage 6.0 (TID 7). 4510 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 10.0 in stage 6.0 (TID 16) (WintThandar, executor driver, partition 10, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 10.0 in stage 6.0 (TID 16)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 4.0 in stage 6.0 (TID 10) in 409 ms on WintThandar (executor driver) (5/200)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 11.0 in stage 6.0 (TID 17) (WintThandar, executor driver, partition 11, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 1.0 in stage 6.0 (TID 7) in 410 ms on WintThandar (executor driver) (6/200)
+22/11/24 21:19:56 INFO Executor: Running task 11.0 in stage 6.0 (TID 17)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 9.0 in stage 6.0 (TID 15). 4231 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 10.0 in stage 6.0 (TID 16). 4347 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 12.0 in stage 6.0 (TID 18) (WintThandar, executor driver, partition 12, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 12.0 in stage 6.0 (TID 18)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 13.0 in stage 6.0 (TID 19) (WintThandar, executor driver, partition 13, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 9.0 in stage 6.0 (TID 15) in 59 ms on WintThandar (executor driver) (7/200)
+22/11/24 21:19:56 INFO Executor: Running task 13.0 in stage 6.0 (TID 19)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 10.0 in stage 6.0 (TID 16) in 57 ms on WintThandar (executor driver) (8/200)
+22/11/24 21:19:56 INFO Executor: Finished task 6.0 in stage 6.0 (TID 12). 4288 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 14.0 in stage 6.0 (TID 20) (WintThandar, executor driver, partition 14, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 6.0 in stage 6.0 (TID 12) in 77 ms on WintThandar (executor driver) (9/200)
+22/11/24 21:19:56 INFO Executor: Running task 14.0 in stage 6.0 (TID 20)
+22/11/24 21:19:56 INFO Executor: Finished task 8.0 in stage 6.0 (TID 14). 4519 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 15.0 in stage 6.0 (TID 21) (WintThandar, executor driver, partition 15, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (145.8 KiB) non-empty blocks including 1 (145.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 8.0 in stage 6.0 (TID 14) in 68 ms on WintThandar (executor driver) (10/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Running task 15.0 in stage 6.0 (TID 21)
+22/11/24 21:19:56 INFO Executor: Finished task 7.0 in stage 6.0 (TID 13). 4598 bytes result sent to driver
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 16.0 in stage 6.0 (TID 22) (WintThandar, executor driver, partition 16, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 7.0 in stage 6.0 (TID 13) in 75 ms on WintThandar (executor driver) (11/200)
+22/11/24 21:19:56 INFO Executor: Finished task 11.0 in stage 6.0 (TID 17). 4524 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Running task 16.0 in stage 6.0 (TID 22)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 17.0 in stage 6.0 (TID 23) (WintThandar, executor driver, partition 17, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 11.0 in stage 6.0 (TID 17) in 67 ms on WintThandar (executor driver) (12/200)
+22/11/24 21:19:56 INFO Executor: Running task 17.0 in stage 6.0 (TID 23)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (553.7 KiB) non-empty blocks including 1 (553.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 12.0 in stage 6.0 (TID 18). 4063 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 18.0 in stage 6.0 (TID 24) (WintThandar, executor driver, partition 18, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 18.0 in stage 6.0 (TID 24)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 12.0 in stage 6.0 (TID 18) in 41 ms on WintThandar (executor driver) (13/200)
+22/11/24 21:19:56 INFO Executor: Finished task 13.0 in stage 6.0 (TID 19). 4202 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 19.0 in stage 6.0 (TID 25) (WintThandar, executor driver, partition 19, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 13.0 in stage 6.0 (TID 19) in 43 ms on WintThandar (executor driver) (14/200)
+22/11/24 21:19:56 INFO Executor: Running task 19.0 in stage 6.0 (TID 25)
+22/11/24 21:19:56 INFO Executor: Finished task 14.0 in stage 6.0 (TID 20). 4307 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 20.0 in stage 6.0 (TID 26) (WintThandar, executor driver, partition 20, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 20.0 in stage 6.0 (TID 26)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 14.0 in stage 6.0 (TID 20) in 47 ms on WintThandar (executor driver) (15/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 17.0 in stage 6.0 (TID 23). 4157 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 21.0 in stage 6.0 (TID 27) (WintThandar, executor driver, partition 21, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 17.0 in stage 6.0 (TID 23) in 39 ms on WintThandar (executor driver) (16/200)
+22/11/24 21:19:56 INFO Executor: Running task 21.0 in stage 6.0 (TID 27)
+22/11/24 21:19:56 INFO Executor: Finished task 15.0 in stage 6.0 (TID 21). 4436 bytes result sent to driver
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 22.0 in stage 6.0 (TID 28) (WintThandar, executor driver, partition 22, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 15.0 in stage 6.0 (TID 21) in 49 ms on WintThandar (executor driver) (17/200)
+22/11/24 21:19:56 INFO Executor: Running task 22.0 in stage 6.0 (TID 28)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 16.0 in stage 6.0 (TID 22). 4570 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 23.0 in stage 6.0 (TID 29) (WintThandar, executor driver, partition 23, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 16.0 in stage 6.0 (TID 22) in 57 ms on WintThandar (executor driver) (18/200)
+22/11/24 21:19:56 INFO Executor: Running task 23.0 in stage 6.0 (TID 29)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 18.0 in stage 6.0 (TID 24). 4216 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 24.0 in stage 6.0 (TID 30) (WintThandar, executor driver, partition 24, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 24.0 in stage 6.0 (TID 30)
+22/11/24 21:19:56 INFO Executor: Finished task 21.0 in stage 6.0 (TID 27). 4239 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 25.0 in stage 6.0 (TID 31) (WintThandar, executor driver, partition 25, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 18.0 in stage 6.0 (TID 24) in 46 ms on WintThandar (executor driver) (19/200)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 21.0 in stage 6.0 (TID 27) in 33 ms on WintThandar (executor driver) (20/200)
+22/11/24 21:19:56 INFO Executor: Running task 25.0 in stage 6.0 (TID 31)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO Executor: Finished task 20.0 in stage 6.0 (TID 26). 4435 bytes result sent to driver
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 26.0 in stage 6.0 (TID 32) (WintThandar, executor driver, partition 26, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 20.0 in stage 6.0 (TID 26) in 38 ms on WintThandar (executor driver) (21/200)
+22/11/24 21:19:56 INFO Executor: Running task 26.0 in stage 6.0 (TID 32)
+22/11/24 21:19:56 INFO Executor: Finished task 19.0 in stage 6.0 (TID 25). 4388 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 27.0 in stage 6.0 (TID 33) (WintThandar, executor driver, partition 27, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 19.0 in stage 6.0 (TID 25) in 47 ms on WintThandar (executor driver) (22/200)
+22/11/24 21:19:56 INFO Executor: Running task 27.0 in stage 6.0 (TID 33)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 22.0 in stage 6.0 (TID 28). 4611 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 28.0 in stage 6.0 (TID 34) (WintThandar, executor driver, partition 28, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 28.0 in stage 6.0 (TID 34)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 22.0 in stage 6.0 (TID 28) in 42 ms on WintThandar (executor driver) (23/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 23.0 in stage 6.0 (TID 29). 4437 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 29.0 in stage 6.0 (TID 35) (WintThandar, executor driver, partition 29, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 23.0 in stage 6.0 (TID 29) in 44 ms on WintThandar (executor driver) (24/200)
+22/11/24 21:19:56 INFO Executor: Running task 29.0 in stage 6.0 (TID 35)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 24.0 in stage 6.0 (TID 30). 4164 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 30.0 in stage 6.0 (TID 36) (WintThandar, executor driver, partition 30, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 30.0 in stage 6.0 (TID 36)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 24.0 in stage 6.0 (TID 30) in 40 ms on WintThandar (executor driver) (25/200)
+22/11/24 21:19:56 INFO Executor: Finished task 25.0 in stage 6.0 (TID 31). 4296 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 27.0 in stage 6.0 (TID 33). 4290 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 31.0 in stage 6.0 (TID 37) (WintThandar, executor driver, partition 31, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 31.0 in stage 6.0 (TID 37)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 32.0 in stage 6.0 (TID 38) (WintThandar, executor driver, partition 32, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 32.0 in stage 6.0 (TID 38)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 27.0 in stage 6.0 (TID 33) in 35 ms on WintThandar (executor driver) (26/200)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 25.0 in stage 6.0 (TID 31) in 42 ms on WintThandar (executor driver) (27/200)
+22/11/24 21:19:56 INFO Executor: Finished task 26.0 in stage 6.0 (TID 32). 4346 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 33.0 in stage 6.0 (TID 39) (WintThandar, executor driver, partition 33, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 33.0 in stage 6.0 (TID 39)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 26.0 in stage 6.0 (TID 32) in 38 ms on WintThandar (executor driver) (28/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (74.8 KiB) non-empty blocks including 1 (74.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 28.0 in stage 6.0 (TID 34). 4647 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 32.0 in stage 6.0 (TID 38). 4055 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 34.0 in stage 6.0 (TID 40) (WintThandar, executor driver, partition 34, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 28.0 in stage 6.0 (TID 34) in 46 ms on WintThandar (executor driver) (29/200)
+22/11/24 21:19:56 INFO Executor: Running task 34.0 in stage 6.0 (TID 40)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 35.0 in stage 6.0 (TID 41) (WintThandar, executor driver, partition 35, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 32.0 in stage 6.0 (TID 38) in 20 ms on WintThandar (executor driver) (30/200)
+22/11/24 21:19:56 INFO Executor: Running task 35.0 in stage 6.0 (TID 41)
+22/11/24 21:19:56 INFO Executor: Finished task 29.0 in stage 6.0 (TID 35). 4264 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 36.0 in stage 6.0 (TID 42) (WintThandar, executor driver, partition 36, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 36.0 in stage 6.0 (TID 42)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 29.0 in stage 6.0 (TID 35) in 37 ms on WintThandar (executor driver) (31/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 30.0 in stage 6.0 (TID 36). 4405 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 37.0 in stage 6.0 (TID 43) (WintThandar, executor driver, partition 37, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 30.0 in stage 6.0 (TID 36) in 36 ms on WintThandar (executor driver) (32/200)
+22/11/24 21:19:56 INFO Executor: Running task 37.0 in stage 6.0 (TID 43)
+22/11/24 21:19:56 INFO Executor: Finished task 33.0 in stage 6.0 (TID 39). 4297 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 38.0 in stage 6.0 (TID 44) (WintThandar, executor driver, partition 38, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 33.0 in stage 6.0 (TID 39) in 32 ms on WintThandar (executor driver) (33/200)
+22/11/24 21:19:56 INFO Executor: Running task 38.0 in stage 6.0 (TID 44)
+22/11/24 21:19:56 INFO Executor: Finished task 31.0 in stage 6.0 (TID 37). 4342 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 39.0 in stage 6.0 (TID 45) (WintThandar, executor driver, partition 39, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 31.0 in stage 6.0 (TID 37) in 36 ms on WintThandar (executor driver) (34/200)
+22/11/24 21:19:56 INFO Executor: Running task 39.0 in stage 6.0 (TID 45)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 35.0 in stage 6.0 (TID 41). 4378 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 34.0 in stage 6.0 (TID 40). 4290 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 40.0 in stage 6.0 (TID 46) (WintThandar, executor driver, partition 40, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 40.0 in stage 6.0 (TID 46)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 35.0 in stage 6.0 (TID 41) in 30 ms on WintThandar (executor driver) (35/200)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 41.0 in stage 6.0 (TID 47) (WintThandar, executor driver, partition 41, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 34.0 in stage 6.0 (TID 40) in 32 ms on WintThandar (executor driver) (36/200)
+22/11/24 21:19:56 INFO Executor: Running task 41.0 in stage 6.0 (TID 47)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 36.0 in stage 6.0 (TID 42). 4164 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 42.0 in stage 6.0 (TID 48) (WintThandar, executor driver, partition 42, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 36.0 in stage 6.0 (TID 42) in 34 ms on WintThandar (executor driver) (37/200)
+22/11/24 21:19:56 INFO Executor: Running task 42.0 in stage 6.0 (TID 48)
+22/11/24 21:19:56 INFO Executor: Finished task 38.0 in stage 6.0 (TID 44). 4385 bytes result sent to driver
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 43.0 in stage 6.0 (TID 49) (WintThandar, executor driver, partition 43, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 38.0 in stage 6.0 (TID 44) in 30 ms on WintThandar (executor driver) (38/200)
+22/11/24 21:19:56 INFO Executor: Running task 43.0 in stage 6.0 (TID 49)
+22/11/24 21:19:56 INFO Executor: Finished task 39.0 in stage 6.0 (TID 45). 4303 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 44.0 in stage 6.0 (TID 50) (WintThandar, executor driver, partition 44, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Finished task 37.0 in stage 6.0 (TID 43). 4470 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 39.0 in stage 6.0 (TID 45) in 31 ms on WintThandar (executor driver) (39/200)
+22/11/24 21:19:56 INFO Executor: Running task 44.0 in stage 6.0 (TID 50)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 45.0 in stage 6.0 (TID 51) (WintThandar, executor driver, partition 45, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 37.0 in stage 6.0 (TID 43) in 36 ms on WintThandar (executor driver) (40/200)
+22/11/24 21:19:56 INFO Executor: Running task 45.0 in stage 6.0 (TID 51)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 41.0 in stage 6.0 (TID 47). 4386 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 46.0 in stage 6.0 (TID 52) (WintThandar, executor driver, partition 46, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 41.0 in stage 6.0 (TID 47) in 25 ms on WintThandar (executor driver) (41/200)
+22/11/24 21:19:56 INFO Executor: Running task 46.0 in stage 6.0 (TID 52)
+22/11/24 21:19:56 INFO Executor: Finished task 40.0 in stage 6.0 (TID 46). 4535 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 47.0 in stage 6.0 (TID 53) (WintThandar, executor driver, partition 47, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 40.0 in stage 6.0 (TID 46) in 36 ms on WintThandar (executor driver) (42/200)
+22/11/24 21:19:56 INFO Executor: Running task 47.0 in stage 6.0 (TID 53)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 45.0 in stage 6.0 (TID 51). 4474 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 48.0 in stage 6.0 (TID 54) (WintThandar, executor driver, partition 48, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 45.0 in stage 6.0 (TID 51) in 28 ms on WintThandar (executor driver) (43/200)
+22/11/24 21:19:56 INFO Executor: Running task 48.0 in stage 6.0 (TID 54)
+22/11/24 21:19:56 INFO Executor: Finished task 42.0 in stage 6.0 (TID 48). 4474 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 49.0 in stage 6.0 (TID 55) (WintThandar, executor driver, partition 49, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 42.0 in stage 6.0 (TID 48) in 39 ms on WintThandar (executor driver) (44/200)
+22/11/24 21:19:56 INFO Executor: Running task 49.0 in stage 6.0 (TID 55)
+22/11/24 21:19:56 INFO Executor: Finished task 44.0 in stage 6.0 (TID 50). 4409 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 43.0 in stage 6.0 (TID 49). 4469 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 50.0 in stage 6.0 (TID 56) (WintThandar, executor driver, partition 50, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 50.0 in stage 6.0 (TID 56)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 44.0 in stage 6.0 (TID 50) in 31 ms on WintThandar (executor driver) (45/200)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 51.0 in stage 6.0 (TID 57) (WintThandar, executor driver, partition 51, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 43.0 in stage 6.0 (TID 49) in 35 ms on WintThandar (executor driver) (46/200)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO Executor: Running task 51.0 in stage 6.0 (TID 57)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 46.0 in stage 6.0 (TID 52). 4142 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 52.0 in stage 6.0 (TID 58) (WintThandar, executor driver, partition 52, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 46.0 in stage 6.0 (TID 52) in 35 ms on WintThandar (executor driver) (47/200)
+22/11/24 21:19:56 INFO Executor: Running task 52.0 in stage 6.0 (TID 58)
+22/11/24 21:19:56 INFO Executor: Finished task 47.0 in stage 6.0 (TID 53). 4427 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 53.0 in stage 6.0 (TID 59) (WintThandar, executor driver, partition 53, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 47.0 in stage 6.0 (TID 53) in 29 ms on WintThandar (executor driver) (48/200)
+22/11/24 21:19:56 INFO Executor: Running task 53.0 in stage 6.0 (TID 59)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (145.8 KiB) non-empty blocks including 1 (145.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 51.0 in stage 6.0 (TID 57). 4232 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 49.0 in stage 6.0 (TID 55). 4304 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 54.0 in stage 6.0 (TID 60) (WintThandar, executor driver, partition 54, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 51.0 in stage 6.0 (TID 57) in 23 ms on WintThandar (executor driver) (49/200)
+22/11/24 21:19:56 INFO Executor: Running task 54.0 in stage 6.0 (TID 60)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 55.0 in stage 6.0 (TID 61) (WintThandar, executor driver, partition 55, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Finished task 50.0 in stage 6.0 (TID 56). 4190 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 49.0 in stage 6.0 (TID 55) in 25 ms on WintThandar (executor driver) (50/200)
+22/11/24 21:19:56 INFO Executor: Running task 55.0 in stage 6.0 (TID 61)
+22/11/24 21:19:56 INFO Executor: Finished task 48.0 in stage 6.0 (TID 54). 4422 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 56.0 in stage 6.0 (TID 62) (WintThandar, executor driver, partition 56, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 56.0 in stage 6.0 (TID 62)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 50.0 in stage 6.0 (TID 56) in 26 ms on WintThandar (executor driver) (51/200)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 57.0 in stage 6.0 (TID 63) (WintThandar, executor driver, partition 57, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 48.0 in stage 6.0 (TID 54) in 31 ms on WintThandar (executor driver) (52/200)
+22/11/24 21:19:56 INFO Executor: Running task 57.0 in stage 6.0 (TID 63)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 53.0 in stage 6.0 (TID 59). 3979 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 58.0 in stage 6.0 (TID 64) (WintThandar, executor driver, partition 58, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 53.0 in stage 6.0 (TID 59) in 23 ms on WintThandar (executor driver) (53/200)
+22/11/24 21:19:56 INFO Executor: Running task 58.0 in stage 6.0 (TID 64)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 54.0 in stage 6.0 (TID 60). 4324 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 52.0 in stage 6.0 (TID 58). 4250 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 59.0 in stage 6.0 (TID 65) (WintThandar, executor driver, partition 59, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 54.0 in stage 6.0 (TID 60) in 22 ms on WintThandar (executor driver) (54/200)
+22/11/24 21:19:56 INFO Executor: Running task 59.0 in stage 6.0 (TID 65)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 60.0 in stage 6.0 (TID 66) (WintThandar, executor driver, partition 60, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 52.0 in stage 6.0 (TID 58) in 33 ms on WintThandar (executor driver) (55/200)
+22/11/24 21:19:56 INFO Executor: Running task 60.0 in stage 6.0 (TID 66)
+22/11/24 21:19:56 INFO Executor: Finished task 57.0 in stage 6.0 (TID 63). 4362 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 61.0 in stage 6.0 (TID 67) (WintThandar, executor driver, partition 61, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 57.0 in stage 6.0 (TID 63) in 22 ms on WintThandar (executor driver) (56/200)
+22/11/24 21:19:56 INFO Executor: Running task 61.0 in stage 6.0 (TID 67)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 56.0 in stage 6.0 (TID 62). 4625 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 62.0 in stage 6.0 (TID 68) (WintThandar, executor driver, partition 62, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO Executor: Running task 62.0 in stage 6.0 (TID 68)
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 56.0 in stage 6.0 (TID 62) in 28 ms on WintThandar (executor driver) (57/200)
+22/11/24 21:19:56 INFO Executor: Finished task 55.0 in stage 6.0 (TID 61). 4624 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 63.0 in stage 6.0 (TID 69) (WintThandar, executor driver, partition 63, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 55.0 in stage 6.0 (TID 61) in 32 ms on WintThandar (executor driver) (58/200)
+22/11/24 21:19:56 INFO Executor: Running task 63.0 in stage 6.0 (TID 69)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 58.0 in stage 6.0 (TID 64). 4400 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 64.0 in stage 6.0 (TID 70) (WintThandar, executor driver, partition 64, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 58.0 in stage 6.0 (TID 64) in 25 ms on WintThandar (executor driver) (59/200)
+22/11/24 21:19:56 INFO Executor: Running task 64.0 in stage 6.0 (TID 70)
+22/11/24 21:19:56 INFO Executor: Finished task 60.0 in stage 6.0 (TID 66). 3921 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 65.0 in stage 6.0 (TID 71) (WintThandar, executor driver, partition 65, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 60.0 in stage 6.0 (TID 66) in 21 ms on WintThandar (executor driver) (60/200)
+22/11/24 21:19:56 INFO Executor: Running task 65.0 in stage 6.0 (TID 71)
+22/11/24 21:19:56 INFO Executor: Finished task 61.0 in stage 6.0 (TID 67). 4312 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 66.0 in stage 6.0 (TID 72) (WintThandar, executor driver, partition 66, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 61.0 in stage 6.0 (TID 67) in 19 ms on WintThandar (executor driver) (61/200)
+22/11/24 21:19:56 INFO Executor: Running task 66.0 in stage 6.0 (TID 72)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 59.0 in stage 6.0 (TID 65). 4497 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 67.0 in stage 6.0 (TID 73) (WintThandar, executor driver, partition 67, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 59.0 in stage 6.0 (TID 65) in 30 ms on WintThandar (executor driver) (62/200)
+22/11/24 21:19:56 INFO Executor: Running task 67.0 in stage 6.0 (TID 73)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 63.0 in stage 6.0 (TID 69). 4456 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 68.0 in stage 6.0 (TID 74) (WintThandar, executor driver, partition 68, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 63.0 in stage 6.0 (TID 69) in 26 ms on WintThandar (executor driver) (63/200)
+22/11/24 21:19:56 INFO Executor: Running task 68.0 in stage 6.0 (TID 74)
+22/11/24 21:19:56 INFO Executor: Finished task 62.0 in stage 6.0 (TID 68). 4483 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 69.0 in stage 6.0 (TID 75) (WintThandar, executor driver, partition 69, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 62.0 in stage 6.0 (TID 68) in 29 ms on WintThandar (executor driver) (64/200)
+22/11/24 21:19:56 INFO Executor: Running task 69.0 in stage 6.0 (TID 75)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 65.0 in stage 6.0 (TID 71). 4481 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 70.0 in stage 6.0 (TID 76) (WintThandar, executor driver, partition 70, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 65.0 in stage 6.0 (TID 71) in 28 ms on WintThandar (executor driver) (65/200)
+22/11/24 21:19:56 INFO Executor: Running task 70.0 in stage 6.0 (TID 76)
+22/11/24 21:19:56 INFO Executor: Finished task 66.0 in stage 6.0 (TID 72). 4462 bytes result sent to driver
+22/11/24 21:19:56 INFO Executor: Finished task 64.0 in stage 6.0 (TID 70). 4237 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 71.0 in stage 6.0 (TID 77) (WintThandar, executor driver, partition 71, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 66.0 in stage 6.0 (TID 72) in 27 ms on WintThandar (executor driver) (66/200)
+22/11/24 21:19:56 INFO Executor: Running task 71.0 in stage 6.0 (TID 77)
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 72.0 in stage 6.0 (TID 78) (WintThandar, executor driver, partition 72, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 64.0 in stage 6.0 (TID 70) in 32 ms on WintThandar (executor driver) (67/200)
+22/11/24 21:19:56 INFO Executor: Running task 72.0 in stage 6.0 (TID 78)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 67.0 in stage 6.0 (TID 73). 4320 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 73.0 in stage 6.0 (TID 79) (WintThandar, executor driver, partition 73, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 67.0 in stage 6.0 (TID 73) in 30 ms on WintThandar (executor driver) (68/200)
+22/11/24 21:19:56 INFO Executor: Running task 73.0 in stage 6.0 (TID 79)
+22/11/24 21:19:56 INFO Executor: Finished task 68.0 in stage 6.0 (TID 74). 4577 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 74.0 in stage 6.0 (TID 80) (WintThandar, executor driver, partition 74, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 68.0 in stage 6.0 (TID 74) in 25 ms on WintThandar (executor driver) (69/200)
+22/11/24 21:19:56 INFO Executor: Running task 74.0 in stage 6.0 (TID 80)
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:56 INFO Executor: Finished task 69.0 in stage 6.0 (TID 75). 4284 bytes result sent to driver
+22/11/24 21:19:56 INFO TaskSetManager: Starting task 75.0 in stage 6.0 (TID 81) (WintThandar, executor driver, partition 75, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:56 INFO TaskSetManager: Finished task 69.0 in stage 6.0 (TID 75) in 32 ms on WintThandar (executor driver) (70/200)
+22/11/24 21:19:56 INFO Executor: Running task 75.0 in stage 6.0 (TID 81)
+22/11/24 21:19:58 INFO Executor: Finished task 70.0 in stage 6.0 (TID 76). 4183 bytes result sent to driver
+22/11/24 21:19:58 INFO BlockManagerInfo: Removed broadcast_4_piece0 on WintThandar:52639 in memory (size: 5.8 KiB, free: 12.5 GiB)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 76.0 in stage 6.0 (TID 82) (WintThandar, executor driver, partition 76, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 70.0 in stage 6.0 (TID 76) in 1333 ms on WintThandar (executor driver) (71/200)
+22/11/24 21:19:58 INFO Executor: Running task 76.0 in stage 6.0 (TID 82)
+22/11/24 21:19:58 INFO Executor: Finished task 72.0 in stage 6.0 (TID 78). 4209 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 77.0 in stage 6.0 (TID 83) (WintThandar, executor driver, partition 77, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 72.0 in stage 6.0 (TID 78) in 1331 ms on WintThandar (executor driver) (72/200)
+22/11/24 21:19:58 INFO Executor: Running task 77.0 in stage 6.0 (TID 83)
+22/11/24 21:19:58 INFO Executor: Finished task 71.0 in stage 6.0 (TID 77). 4570 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 78.0 in stage 6.0 (TID 84) (WintThandar, executor driver, partition 78, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 71.0 in stage 6.0 (TID 77) in 1335 ms on WintThandar (executor driver) (73/200)
+22/11/24 21:19:58 INFO Executor: Running task 78.0 in stage 6.0 (TID 84)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (609.1 KiB) non-empty blocks including 1 (609.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO BlockManagerInfo: Removed broadcast_2_piece0 on WintThandar:52639 in memory (size: 7.3 KiB, free: 12.5 GiB)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 73.0 in stage 6.0 (TID 79). 4279 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 79.0 in stage 6.0 (TID 85) (WintThandar, executor driver, partition 79, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 73.0 in stage 6.0 (TID 79) in 1333 ms on WintThandar (executor driver) (74/200)
+22/11/24 21:19:58 INFO Executor: Running task 79.0 in stage 6.0 (TID 85)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 74.0 in stage 6.0 (TID 80). 4387 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 80.0 in stage 6.0 (TID 86) (WintThandar, executor driver, partition 80, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 74.0 in stage 6.0 (TID 80) in 1337 ms on WintThandar (executor driver) (75/200)
+22/11/24 21:19:58 INFO Executor: Running task 80.0 in stage 6.0 (TID 86)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 77.0 in stage 6.0 (TID 83). 4254 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 81.0 in stage 6.0 (TID 87) (WintThandar, executor driver, partition 81, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 77.0 in stage 6.0 (TID 83) in 35 ms on WintThandar (executor driver) (76/200)
+22/11/24 21:19:58 INFO Executor: Running task 81.0 in stage 6.0 (TID 87)
+22/11/24 21:19:58 INFO Executor: Finished task 78.0 in stage 6.0 (TID 84). 4205 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 82.0 in stage 6.0 (TID 88) (WintThandar, executor driver, partition 82, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 78.0 in stage 6.0 (TID 84) in 34 ms on WintThandar (executor driver) (77/200)
+22/11/24 21:19:58 INFO Executor: Running task 82.0 in stage 6.0 (TID 88)
+22/11/24 21:19:58 INFO Executor: Finished task 75.0 in stage 6.0 (TID 81). 4564 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 83.0 in stage 6.0 (TID 89) (WintThandar, executor driver, partition 83, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 83.0 in stage 6.0 (TID 89)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 75.0 in stage 6.0 (TID 81) in 1351 ms on WintThandar (executor driver) (78/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 79.0 in stage 6.0 (TID 85). 4356 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 84.0 in stage 6.0 (TID 90) (WintThandar, executor driver, partition 84, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 79.0 in stage 6.0 (TID 85) in 49 ms on WintThandar (executor driver) (79/200)
+22/11/24 21:19:58 INFO Executor: Running task 84.0 in stage 6.0 (TID 90)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 82.0 in stage 6.0 (TID 88). 4314 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 85.0 in stage 6.0 (TID 91) (WintThandar, executor driver, partition 85, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 82.0 in stage 6.0 (TID 88) in 32 ms on WintThandar (executor driver) (80/200)
+22/11/24 21:19:58 INFO Executor: Running task 85.0 in stage 6.0 (TID 91)
+22/11/24 21:19:58 INFO Executor: Finished task 76.0 in stage 6.0 (TID 82). 4662 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 86.0 in stage 6.0 (TID 92) (WintThandar, executor driver, partition 86, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 76.0 in stage 6.0 (TID 82) in 72 ms on WintThandar (executor driver) (81/200)
+22/11/24 21:19:58 INFO Executor: Running task 86.0 in stage 6.0 (TID 92)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 81.0 in stage 6.0 (TID 87). 4262 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 87.0 in stage 6.0 (TID 93) (WintThandar, executor driver, partition 87, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Finished task 80.0 in stage 6.0 (TID 86). 4379 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Running task 87.0 in stage 6.0 (TID 93)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 81.0 in stage 6.0 (TID 87) in 44 ms on WintThandar (executor driver) (82/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 88.0 in stage 6.0 (TID 94) (WintThandar, executor driver, partition 88, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 80.0 in stage 6.0 (TID 86) in 62 ms on WintThandar (executor driver) (83/200)
+22/11/24 21:19:58 INFO Executor: Running task 88.0 in stage 6.0 (TID 94)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 84.0 in stage 6.0 (TID 90). 4209 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 89.0 in stage 6.0 (TID 95) (WintThandar, executor driver, partition 89, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 84.0 in stage 6.0 (TID 90) in 28 ms on WintThandar (executor driver) (84/200)
+22/11/24 21:19:58 INFO Executor: Running task 89.0 in stage 6.0 (TID 95)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO Executor: Finished task 83.0 in stage 6.0 (TID 89). 4633 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 90.0 in stage 6.0 (TID 96) (WintThandar, executor driver, partition 90, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 83.0 in stage 6.0 (TID 89) in 55 ms on WintThandar (executor driver) (85/200)
+22/11/24 21:19:58 INFO Executor: Running task 90.0 in stage 6.0 (TID 96)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 86.0 in stage 6.0 (TID 92). 4288 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 91.0 in stage 6.0 (TID 97) (WintThandar, executor driver, partition 91, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 86.0 in stage 6.0 (TID 92) in 36 ms on WintThandar (executor driver) (86/200)
+22/11/24 21:19:58 INFO Executor: Running task 91.0 in stage 6.0 (TID 97)
+22/11/24 21:19:58 INFO Executor: Finished task 85.0 in stage 6.0 (TID 91). 4404 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 92.0 in stage 6.0 (TID 98) (WintThandar, executor driver, partition 92, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 85.0 in stage 6.0 (TID 91) in 40 ms on WintThandar (executor driver) (87/200)
+22/11/24 21:19:58 INFO Executor: Running task 92.0 in stage 6.0 (TID 98)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 88.0 in stage 6.0 (TID 94). 4246 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 87.0 in stage 6.0 (TID 93). 4311 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 93.0 in stage 6.0 (TID 99) (WintThandar, executor driver, partition 93, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 88.0 in stage 6.0 (TID 94) in 33 ms on WintThandar (executor driver) (88/200)
+22/11/24 21:19:58 INFO Executor: Running task 93.0 in stage 6.0 (TID 99)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 94.0 in stage 6.0 (TID 100) (WintThandar, executor driver, partition 94, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 87.0 in stage 6.0 (TID 93) in 35 ms on WintThandar (executor driver) (89/200)
+22/11/24 21:19:58 INFO Executor: Running task 94.0 in stage 6.0 (TID 100)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 89.0 in stage 6.0 (TID 95). 4322 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 90.0 in stage 6.0 (TID 96). 4277 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 95.0 in stage 6.0 (TID 101) (WintThandar, executor driver, partition 95, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 95.0 in stage 6.0 (TID 101)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 89.0 in stage 6.0 (TID 95) in 39 ms on WintThandar (executor driver) (90/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 96.0 in stage 6.0 (TID 102) (WintThandar, executor driver, partition 96, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 90.0 in stage 6.0 (TID 96) in 35 ms on WintThandar (executor driver) (91/200)
+22/11/24 21:19:58 INFO Executor: Running task 96.0 in stage 6.0 (TID 102)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 94.0 in stage 6.0 (TID 100). 4187 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 91.0 in stage 6.0 (TID 97). 4373 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 92.0 in stage 6.0 (TID 98). 4198 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 97.0 in stage 6.0 (TID 103) (WintThandar, executor driver, partition 97, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 97.0 in stage 6.0 (TID 103)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 94.0 in stage 6.0 (TID 100) in 33 ms on WintThandar (executor driver) (92/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 98.0 in stage 6.0 (TID 104) (WintThandar, executor driver, partition 98, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 98.0 in stage 6.0 (TID 104)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 91.0 in stage 6.0 (TID 97) in 42 ms on WintThandar (executor driver) (93/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 99.0 in stage 6.0 (TID 105) (WintThandar, executor driver, partition 99, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 92.0 in stage 6.0 (TID 98) in 38 ms on WintThandar (executor driver) (94/200)
+22/11/24 21:19:58 INFO Executor: Running task 99.0 in stage 6.0 (TID 105)
+22/11/24 21:19:58 INFO Executor: Finished task 93.0 in stage 6.0 (TID 99). 4470 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 100.0 in stage 6.0 (TID 106) (WintThandar, executor driver, partition 100, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 93.0 in stage 6.0 (TID 99) in 38 ms on WintThandar (executor driver) (95/200)
+22/11/24 21:19:58 INFO Executor: Running task 100.0 in stage 6.0 (TID 106)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 95.0 in stage 6.0 (TID 101). 4425 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 96.0 in stage 6.0 (TID 102). 4138 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 101.0 in stage 6.0 (TID 107) (WintThandar, executor driver, partition 101, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 101.0 in stage 6.0 (TID 107)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 95.0 in stage 6.0 (TID 101) in 36 ms on WintThandar (executor driver) (96/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 102.0 in stage 6.0 (TID 108) (WintThandar, executor driver, partition 102, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 96.0 in stage 6.0 (TID 102) in 36 ms on WintThandar (executor driver) (97/200)
+22/11/24 21:19:58 INFO Executor: Running task 102.0 in stage 6.0 (TID 108)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+22/11/24 21:19:58 INFO Executor: Finished task 97.0 in stage 6.0 (TID 103). 4446 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 99.0 in stage 6.0 (TID 105). 4302 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 103.0 in stage 6.0 (TID 109) (WintThandar, executor driver, partition 103, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 97.0 in stage 6.0 (TID 103) in 34 ms on WintThandar (executor driver) (98/200)
+22/11/24 21:19:58 INFO Executor: Running task 103.0 in stage 6.0 (TID 109)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 104.0 in stage 6.0 (TID 110) (WintThandar, executor driver, partition 104, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 104.0 in stage 6.0 (TID 110)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 99.0 in stage 6.0 (TID 105) in 34 ms on WintThandar (executor driver) (99/200)
+22/11/24 21:19:58 INFO Executor: Finished task 100.0 in stage 6.0 (TID 106). 4364 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 105.0 in stage 6.0 (TID 111) (WintThandar, executor driver, partition 105, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 100.0 in stage 6.0 (TID 106) in 34 ms on WintThandar (executor driver) (100/200)
+22/11/24 21:19:58 INFO Executor: Running task 105.0 in stage 6.0 (TID 111)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (160.4 KiB) non-empty blocks including 1 (160.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 98.0 in stage 6.0 (TID 104). 4574 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 106.0 in stage 6.0 (TID 112) (WintThandar, executor driver, partition 106, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 98.0 in stage 6.0 (TID 104) in 43 ms on WintThandar (executor driver) (101/200)
+22/11/24 21:19:58 INFO Executor: Running task 106.0 in stage 6.0 (TID 112)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 101.0 in stage 6.0 (TID 107). 4488 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 107.0 in stage 6.0 (TID 113) (WintThandar, executor driver, partition 107, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 101.0 in stage 6.0 (TID 107) in 34 ms on WintThandar (executor driver) (102/200)
+22/11/24 21:19:58 INFO Executor: Running task 107.0 in stage 6.0 (TID 113)
+22/11/24 21:19:58 INFO Executor: Finished task 102.0 in stage 6.0 (TID 108). 4434 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 108.0 in stage 6.0 (TID 114) (WintThandar, executor driver, partition 108, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 102.0 in stage 6.0 (TID 108) in 38 ms on WintThandar (executor driver) (103/200)
+22/11/24 21:19:58 INFO Executor: Running task 108.0 in stage 6.0 (TID 114)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 103.0 in stage 6.0 (TID 109). 4121 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 109.0 in stage 6.0 (TID 115) (WintThandar, executor driver, partition 109, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 109.0 in stage 6.0 (TID 115)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 103.0 in stage 6.0 (TID 109) in 32 ms on WintThandar (executor driver) (104/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 105.0 in stage 6.0 (TID 111). 4240 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 110.0 in stage 6.0 (TID 116) (WintThandar, executor driver, partition 110, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 105.0 in stage 6.0 (TID 111) in 38 ms on WintThandar (executor driver) (105/200)
+22/11/24 21:19:58 INFO Executor: Running task 110.0 in stage 6.0 (TID 116)
+22/11/24 21:19:58 INFO Executor: Finished task 104.0 in stage 6.0 (TID 110). 4439 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 106.0 in stage 6.0 (TID 112). 4312 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 111.0 in stage 6.0 (TID 117) (WintThandar, executor driver, partition 111, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 111.0 in stage 6.0 (TID 117)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 104.0 in stage 6.0 (TID 110) in 46 ms on WintThandar (executor driver) (106/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 112.0 in stage 6.0 (TID 118) (WintThandar, executor driver, partition 112, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 106.0 in stage 6.0 (TID 112) in 40 ms on WintThandar (executor driver) (107/200)
+22/11/24 21:19:58 INFO Executor: Running task 112.0 in stage 6.0 (TID 118)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 108.0 in stage 6.0 (TID 114). 4268 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 113.0 in stage 6.0 (TID 119) (WintThandar, executor driver, partition 113, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 108.0 in stage 6.0 (TID 114) in 31 ms on WintThandar (executor driver) (108/200)
+22/11/24 21:19:58 INFO Executor: Running task 113.0 in stage 6.0 (TID 119)
+22/11/24 21:19:58 INFO Executor: Finished task 107.0 in stage 6.0 (TID 113). 4244 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 114.0 in stage 6.0 (TID 120) (WintThandar, executor driver, partition 114, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 114.0 in stage 6.0 (TID 120)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 107.0 in stage 6.0 (TID 113) in 42 ms on WintThandar (executor driver) (109/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (194.1 KiB) non-empty blocks including 1 (194.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 109.0 in stage 6.0 (TID 115). 4266 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 115.0 in stage 6.0 (TID 121) (WintThandar, executor driver, partition 115, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 109.0 in stage 6.0 (TID 115) in 37 ms on WintThandar (executor driver) (110/200)
+22/11/24 21:19:58 INFO Executor: Running task 115.0 in stage 6.0 (TID 121)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (609.1 KiB) non-empty blocks including 1 (609.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 111.0 in stage 6.0 (TID 117). 4315 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 112.0 in stage 6.0 (TID 118). 4145 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 116.0 in stage 6.0 (TID 122) (WintThandar, executor driver, partition 116, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 116.0 in stage 6.0 (TID 122)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 117.0 in stage 6.0 (TID 123) (WintThandar, executor driver, partition 117, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 111.0 in stage 6.0 (TID 117) in 35 ms on WintThandar (executor driver) (111/200)
+22/11/24 21:19:58 INFO Executor: Running task 117.0 in stage 6.0 (TID 123)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 112.0 in stage 6.0 (TID 118) in 35 ms on WintThandar (executor driver) (112/200)
+22/11/24 21:19:58 INFO Executor: Finished task 110.0 in stage 6.0 (TID 116). 4354 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 118.0 in stage 6.0 (TID 124) (WintThandar, executor driver, partition 118, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 110.0 in stage 6.0 (TID 116) in 44 ms on WintThandar (executor driver) (113/200)
+22/11/24 21:19:58 INFO Executor: Running task 118.0 in stage 6.0 (TID 124)
+22/11/24 21:19:58 INFO Executor: Finished task 113.0 in stage 6.0 (TID 119). 4259 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 119.0 in stage 6.0 (TID 125) (WintThandar, executor driver, partition 119, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 113.0 in stage 6.0 (TID 119) in 32 ms on WintThandar (executor driver) (114/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO Executor: Running task 119.0 in stage 6.0 (TID 125)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 114.0 in stage 6.0 (TID 120). 4439 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 120.0 in stage 6.0 (TID 126) (WintThandar, executor driver, partition 120, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 114.0 in stage 6.0 (TID 120) in 39 ms on WintThandar (executor driver) (115/200)
+22/11/24 21:19:58 INFO Executor: Running task 120.0 in stage 6.0 (TID 126)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 116.0 in stage 6.0 (TID 122). 4205 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 121.0 in stage 6.0 (TID 127) (WintThandar, executor driver, partition 121, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 116.0 in stage 6.0 (TID 122) in 39 ms on WintThandar (executor driver) (116/200)
+22/11/24 21:19:58 INFO Executor: Running task 121.0 in stage 6.0 (TID 127)
+22/11/24 21:19:58 INFO Executor: Finished task 117.0 in stage 6.0 (TID 123). 4268 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 115.0 in stage 6.0 (TID 121). 4567 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 122.0 in stage 6.0 (TID 128) (WintThandar, executor driver, partition 122, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 122.0 in stage 6.0 (TID 128)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 117.0 in stage 6.0 (TID 123) in 41 ms on WintThandar (executor driver) (117/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 123.0 in stage 6.0 (TID 129) (WintThandar, executor driver, partition 123, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 115.0 in stage 6.0 (TID 121) in 57 ms on WintThandar (executor driver) (118/200)
+22/11/24 21:19:58 INFO Executor: Running task 123.0 in stage 6.0 (TID 129)
+22/11/24 21:19:58 INFO Executor: Finished task 119.0 in stage 6.0 (TID 125). 4378 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 124.0 in stage 6.0 (TID 130) (WintThandar, executor driver, partition 124, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 119.0 in stage 6.0 (TID 125) in 40 ms on WintThandar (executor driver) (119/200)
+22/11/24 21:19:58 INFO Executor: Running task 124.0 in stage 6.0 (TID 130)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (553.7 KiB) non-empty blocks including 1 (553.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (553.7 KiB) non-empty blocks including 1 (553.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 120.0 in stage 6.0 (TID 126). 4275 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 125.0 in stage 6.0 (TID 131) (WintThandar, executor driver, partition 125, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 120.0 in stage 6.0 (TID 126) in 45 ms on WintThandar (executor driver) (120/200)
+22/11/24 21:19:58 INFO Executor: Running task 125.0 in stage 6.0 (TID 131)
+22/11/24 21:19:58 INFO Executor: Finished task 118.0 in stage 6.0 (TID 124). 4401 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 126.0 in stage 6.0 (TID 132) (WintThandar, executor driver, partition 126, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 126.0 in stage 6.0 (TID 132)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 118.0 in stage 6.0 (TID 124) in 60 ms on WintThandar (executor driver) (121/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 123.0 in stage 6.0 (TID 129). 4300 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 124.0 in stage 6.0 (TID 130). 4192 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 127.0 in stage 6.0 (TID 133) (WintThandar, executor driver, partition 127, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 127.0 in stage 6.0 (TID 133)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 123.0 in stage 6.0 (TID 129) in 36 ms on WintThandar (executor driver) (122/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 128.0 in stage 6.0 (TID 134) (WintThandar, executor driver, partition 128, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 128.0 in stage 6.0 (TID 134)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 124.0 in stage 6.0 (TID 130) in 36 ms on WintThandar (executor driver) (123/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 121.0 in stage 6.0 (TID 127). 4469 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 129.0 in stage 6.0 (TID 135) (WintThandar, executor driver, partition 129, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 121.0 in stage 6.0 (TID 127) in 49 ms on WintThandar (executor driver) (124/200)
+22/11/24 21:19:58 INFO Executor: Running task 129.0 in stage 6.0 (TID 135)
+22/11/24 21:19:58 INFO Executor: Finished task 122.0 in stage 6.0 (TID 128). 4535 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 130.0 in stage 6.0 (TID 136) (WintThandar, executor driver, partition 130, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 122.0 in stage 6.0 (TID 128) in 51 ms on WintThandar (executor driver) (125/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO Executor: Running task 130.0 in stage 6.0 (TID 136)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 125.0 in stage 6.0 (TID 131). 4455 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 131.0 in stage 6.0 (TID 137) (WintThandar, executor driver, partition 131, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 125.0 in stage 6.0 (TID 131) in 45 ms on WintThandar (executor driver) (126/200)
+22/11/24 21:19:58 INFO Executor: Running task 131.0 in stage 6.0 (TID 137)
+22/11/24 21:19:58 INFO Executor: Finished task 126.0 in stage 6.0 (TID 132). 4267 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 132.0 in stage 6.0 (TID 138) (WintThandar, executor driver, partition 132, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 126.0 in stage 6.0 (TID 132) in 45 ms on WintThandar (executor driver) (127/200)
+22/11/24 21:19:58 INFO Executor: Running task 132.0 in stage 6.0 (TID 138)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 128.0 in stage 6.0 (TID 134). 4202 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 133.0 in stage 6.0 (TID 139) (WintThandar, executor driver, partition 133, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 133.0 in stage 6.0 (TID 139)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 128.0 in stage 6.0 (TID 134) in 37 ms on WintThandar (executor driver) (128/200)
+22/11/24 21:19:58 INFO Executor: Finished task 129.0 in stage 6.0 (TID 135). 4353 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 134.0 in stage 6.0 (TID 140) (WintThandar, executor driver, partition 134, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 129.0 in stage 6.0 (TID 135) in 35 ms on WintThandar (executor driver) (129/200)
+22/11/24 21:19:58 INFO Executor: Running task 134.0 in stage 6.0 (TID 140)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO Executor: Finished task 130.0 in stage 6.0 (TID 136). 4082 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 127.0 in stage 6.0 (TID 133). 4423 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 135.0 in stage 6.0 (TID 141) (WintThandar, executor driver, partition 135, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 135.0 in stage 6.0 (TID 141)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 136.0 in stage 6.0 (TID 142) (WintThandar, executor driver, partition 136, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 130.0 in stage 6.0 (TID 136) in 35 ms on WintThandar (executor driver) (130/200)
+22/11/24 21:19:58 INFO Executor: Running task 136.0 in stage 6.0 (TID 142)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 127.0 in stage 6.0 (TID 133) in 49 ms on WintThandar (executor driver) (131/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 131.0 in stage 6.0 (TID 137). 4328 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 137.0 in stage 6.0 (TID 143) (WintThandar, executor driver, partition 137, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 131.0 in stage 6.0 (TID 137) in 37 ms on WintThandar (executor driver) (132/200)
+22/11/24 21:19:58 INFO Executor: Running task 137.0 in stage 6.0 (TID 143)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 132.0 in stage 6.0 (TID 138). 4223 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 138.0 in stage 6.0 (TID 144) (WintThandar, executor driver, partition 138, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 132.0 in stage 6.0 (TID 138) in 38 ms on WintThandar (executor driver) (133/200)
+22/11/24 21:19:58 INFO Executor: Running task 138.0 in stage 6.0 (TID 144)
+22/11/24 21:19:58 INFO Executor: Finished task 133.0 in stage 6.0 (TID 139). 4340 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 139.0 in stage 6.0 (TID 145) (WintThandar, executor driver, partition 139, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 133.0 in stage 6.0 (TID 139) in 33 ms on WintThandar (executor driver) (134/200)
+22/11/24 21:19:58 INFO Executor: Running task 139.0 in stage 6.0 (TID 145)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 134.0 in stage 6.0 (TID 140). 4413 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 140.0 in stage 6.0 (TID 146) (WintThandar, executor driver, partition 140, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 134.0 in stage 6.0 (TID 140) in 36 ms on WintThandar (executor driver) (135/200)
+22/11/24 21:19:58 INFO Executor: Running task 140.0 in stage 6.0 (TID 146)
+22/11/24 21:19:58 INFO Executor: Finished task 136.0 in stage 6.0 (TID 142). 4278 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 135.0 in stage 6.0 (TID 141). 4227 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 141.0 in stage 6.0 (TID 147) (WintThandar, executor driver, partition 141, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 136.0 in stage 6.0 (TID 142) in 34 ms on WintThandar (executor driver) (136/200)
+22/11/24 21:19:58 INFO Executor: Running task 141.0 in stage 6.0 (TID 147)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 142.0 in stage 6.0 (TID 148) (WintThandar, executor driver, partition 142, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 135.0 in stage 6.0 (TID 141) in 35 ms on WintThandar (executor driver) (137/200)
+22/11/24 21:19:58 INFO Executor: Running task 142.0 in stage 6.0 (TID 148)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 137.0 in stage 6.0 (TID 143). 4227 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 143.0 in stage 6.0 (TID 149) (WintThandar, executor driver, partition 143, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 143.0 in stage 6.0 (TID 149)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 137.0 in stage 6.0 (TID 143) in 33 ms on WintThandar (executor driver) (138/200)
+22/11/24 21:19:58 INFO Executor: Finished task 138.0 in stage 6.0 (TID 144). 4368 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 144.0 in stage 6.0 (TID 150) (WintThandar, executor driver, partition 144, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 138.0 in stage 6.0 (TID 144) in 30 ms on WintThandar (executor driver) (139/200)
+22/11/24 21:19:58 INFO Executor: Running task 144.0 in stage 6.0 (TID 150)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 139.0 in stage 6.0 (TID 145). 4347 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 145.0 in stage 6.0 (TID 151) (WintThandar, executor driver, partition 145, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 139.0 in stage 6.0 (TID 145) in 35 ms on WintThandar (executor driver) (140/200)
+22/11/24 21:19:58 INFO Executor: Running task 145.0 in stage 6.0 (TID 151)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 141.0 in stage 6.0 (TID 147). 4473 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 146.0 in stage 6.0 (TID 152) (WintThandar, executor driver, partition 146, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 141.0 in stage 6.0 (TID 147) in 31 ms on WintThandar (executor driver) (141/200)
+22/11/24 21:19:58 INFO Executor: Finished task 142.0 in stage 6.0 (TID 148). 4197 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Running task 146.0 in stage 6.0 (TID 152)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 147.0 in stage 6.0 (TID 153) (WintThandar, executor driver, partition 147, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 147.0 in stage 6.0 (TID 153)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 142.0 in stage 6.0 (TID 148) in 30 ms on WintThandar (executor driver) (142/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 140.0 in stage 6.0 (TID 146). 4484 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 148.0 in stage 6.0 (TID 154) (WintThandar, executor driver, partition 148, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 148.0 in stage 6.0 (TID 154)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 140.0 in stage 6.0 (TID 146) in 41 ms on WintThandar (executor driver) (143/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (503.4 KiB) non-empty blocks including 1 (503.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 144.0 in stage 6.0 (TID 150). 4168 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 149.0 in stage 6.0 (TID 155) (WintThandar, executor driver, partition 149, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 144.0 in stage 6.0 (TID 150) in 29 ms on WintThandar (executor driver) (144/200)
+22/11/24 21:19:58 INFO Executor: Running task 149.0 in stage 6.0 (TID 155)
+22/11/24 21:19:58 INFO Executor: Finished task 143.0 in stage 6.0 (TID 149). 4132 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 150.0 in stage 6.0 (TID 156) (WintThandar, executor driver, partition 150, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 150.0 in stage 6.0 (TID 156)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 143.0 in stage 6.0 (TID 149) in 36 ms on WintThandar (executor driver) (145/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 147.0 in stage 6.0 (TID 153). 4406 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 151.0 in stage 6.0 (TID 157) (WintThandar, executor driver, partition 151, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 147.0 in stage 6.0 (TID 153) in 31 ms on WintThandar (executor driver) (146/200)
+22/11/24 21:19:58 INFO Executor: Running task 151.0 in stage 6.0 (TID 157)
+22/11/24 21:19:58 INFO Executor: Finished task 145.0 in stage 6.0 (TID 151). 4530 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 152.0 in stage 6.0 (TID 158) (WintThandar, executor driver, partition 152, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 146.0 in stage 6.0 (TID 152). 4549 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 145.0 in stage 6.0 (TID 151) in 45 ms on WintThandar (executor driver) (147/200)
+22/11/24 21:19:58 INFO Executor: Running task 152.0 in stage 6.0 (TID 158)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 153.0 in stage 6.0 (TID 159) (WintThandar, executor driver, partition 153, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 153.0 in stage 6.0 (TID 159)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 146.0 in stage 6.0 (TID 152) in 39 ms on WintThandar (executor driver) (148/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 149.0 in stage 6.0 (TID 155). 4220 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 150.0 in stage 6.0 (TID 156). 4215 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 154.0 in stage 6.0 (TID 160) (WintThandar, executor driver, partition 154, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 154.0 in stage 6.0 (TID 160)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 155.0 in stage 6.0 (TID 161) (WintThandar, executor driver, partition 155, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 149.0 in stage 6.0 (TID 155) in 37 ms on WintThandar (executor driver) (149/200)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 150.0 in stage 6.0 (TID 156) in 36 ms on WintThandar (executor driver) (150/200)
+22/11/24 21:19:58 INFO Executor: Running task 155.0 in stage 6.0 (TID 161)
+22/11/24 21:19:58 INFO Executor: Finished task 148.0 in stage 6.0 (TID 154). 4565 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 156.0 in stage 6.0 (TID 162) (WintThandar, executor driver, partition 156, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 148.0 in stage 6.0 (TID 154) in 49 ms on WintThandar (executor driver) (151/200)
+22/11/24 21:19:58 INFO Executor: Running task 156.0 in stage 6.0 (TID 162)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (194.1 KiB) non-empty blocks including 1 (194.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 151.0 in stage 6.0 (TID 157). 4360 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 157.0 in stage 6.0 (TID 163) (WintThandar, executor driver, partition 157, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 157.0 in stage 6.0 (TID 163)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 151.0 in stage 6.0 (TID 157) in 38 ms on WintThandar (executor driver) (152/200)
+22/11/24 21:19:58 INFO Executor: Finished task 152.0 in stage 6.0 (TID 158). 4283 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 158.0 in stage 6.0 (TID 164) (WintThandar, executor driver, partition 158, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 152.0 in stage 6.0 (TID 158) in 37 ms on WintThandar (executor driver) (153/200)
+22/11/24 21:19:58 INFO Executor: Running task 158.0 in stage 6.0 (TID 164)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 153.0 in stage 6.0 (TID 159). 4362 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 159.0 in stage 6.0 (TID 165) (WintThandar, executor driver, partition 159, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 153.0 in stage 6.0 (TID 159) in 41 ms on WintThandar (executor driver) (154/200)
+22/11/24 21:19:58 INFO Executor: Running task 159.0 in stage 6.0 (TID 165)
+22/11/24 21:19:58 INFO Executor: Finished task 155.0 in stage 6.0 (TID 161). 4497 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 160.0 in stage 6.0 (TID 166) (WintThandar, executor driver, partition 160, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 160.0 in stage 6.0 (TID 166)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 155.0 in stage 6.0 (TID 161) in 34 ms on WintThandar (executor driver) (155/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 154.0 in stage 6.0 (TID 160). 4714 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 161.0 in stage 6.0 (TID 167) (WintThandar, executor driver, partition 161, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 154.0 in stage 6.0 (TID 160) in 41 ms on WintThandar (executor driver) (156/200)
+22/11/24 21:19:58 INFO Executor: Running task 161.0 in stage 6.0 (TID 167)
+22/11/24 21:19:58 INFO Executor: Finished task 156.0 in stage 6.0 (TID 162). 4504 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 162.0 in stage 6.0 (TID 168) (WintThandar, executor driver, partition 162, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 156.0 in stage 6.0 (TID 162) in 43 ms on WintThandar (executor driver) (157/200)
+22/11/24 21:19:58 INFO Executor: Running task 162.0 in stage 6.0 (TID 168)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 157.0 in stage 6.0 (TID 163). 4151 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 163.0 in stage 6.0 (TID 169) (WintThandar, executor driver, partition 163, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 157.0 in stage 6.0 (TID 163) in 33 ms on WintThandar (executor driver) (158/200)
+22/11/24 21:19:58 INFO Executor: Running task 163.0 in stage 6.0 (TID 169)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 158.0 in stage 6.0 (TID 164). 4206 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 164.0 in stage 6.0 (TID 170) (WintThandar, executor driver, partition 164, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 164.0 in stage 6.0 (TID 170)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 158.0 in stage 6.0 (TID 164) in 38 ms on WintThandar (executor driver) (159/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 160.0 in stage 6.0 (TID 166). 4207 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 165.0 in stage 6.0 (TID 171) (WintThandar, executor driver, partition 165, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 160.0 in stage 6.0 (TID 166) in 37 ms on WintThandar (executor driver) (160/200)
+22/11/24 21:19:58 INFO Executor: Running task 165.0 in stage 6.0 (TID 171)
+22/11/24 21:19:58 INFO Executor: Finished task 159.0 in stage 6.0 (TID 165). 4337 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 166.0 in stage 6.0 (TID 172) (WintThandar, executor driver, partition 166, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 159.0 in stage 6.0 (TID 165) in 43 ms on WintThandar (executor driver) (161/200)
+22/11/24 21:19:58 INFO Executor: Running task 166.0 in stage 6.0 (TID 172)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 161.0 in stage 6.0 (TID 167). 4311 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 167.0 in stage 6.0 (TID 173) (WintThandar, executor driver, partition 167, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 167.0 in stage 6.0 (TID 173)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 161.0 in stage 6.0 (TID 167) in 42 ms on WintThandar (executor driver) (162/200)
+22/11/24 21:19:58 INFO Executor: Finished task 162.0 in stage 6.0 (TID 168). 4356 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 168.0 in stage 6.0 (TID 174) (WintThandar, executor driver, partition 168, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 162.0 in stage 6.0 (TID 168) in 39 ms on WintThandar (executor driver) (163/200)
+22/11/24 21:19:58 INFO Executor: Running task 168.0 in stage 6.0 (TID 174)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 163.0 in stage 6.0 (TID 169). 4458 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 169.0 in stage 6.0 (TID 175) (WintThandar, executor driver, partition 169, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 163.0 in stage 6.0 (TID 169) in 41 ms on WintThandar (executor driver) (164/200)
+22/11/24 21:19:58 INFO Executor: Running task 169.0 in stage 6.0 (TID 175)
+22/11/24 21:19:58 INFO Executor: Finished task 164.0 in stage 6.0 (TID 170). 4436 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 170.0 in stage 6.0 (TID 176) (WintThandar, executor driver, partition 170, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Running task 170.0 in stage 6.0 (TID 176)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 164.0 in stage 6.0 (TID 170) in 37 ms on WintThandar (executor driver) (165/200)
+22/11/24 21:19:58 INFO Executor: Finished task 165.0 in stage 6.0 (TID 171). 4124 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 171.0 in stage 6.0 (TID 177) (WintThandar, executor driver, partition 171, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 165.0 in stage 6.0 (TID 171) in 28 ms on WintThandar (executor driver) (166/200)
+22/11/24 21:19:58 INFO Executor: Running task 171.0 in stage 6.0 (TID 177)
+22/11/24 21:19:58 INFO Executor: Finished task 166.0 in stage 6.0 (TID 172). 4342 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 172.0 in stage 6.0 (TID 178) (WintThandar, executor driver, partition 172, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 166.0 in stage 6.0 (TID 172) in 29 ms on WintThandar (executor driver) (167/200)
+22/11/24 21:19:58 INFO Executor: Running task 172.0 in stage 6.0 (TID 178)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 167.0 in stage 6.0 (TID 173). 4436 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 168.0 in stage 6.0 (TID 174). 4646 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 173.0 in stage 6.0 (TID 179) (WintThandar, executor driver, partition 173, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 167.0 in stage 6.0 (TID 173) in 39 ms on WintThandar (executor driver) (168/200)
+22/11/24 21:19:58 INFO Executor: Running task 173.0 in stage 6.0 (TID 179)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 174.0 in stage 6.0 (TID 180) (WintThandar, executor driver, partition 174, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 168.0 in stage 6.0 (TID 174) in 40 ms on WintThandar (executor driver) (169/200)
+22/11/24 21:19:58 INFO Executor: Running task 174.0 in stage 6.0 (TID 180)
+22/11/24 21:19:58 INFO Executor: Finished task 170.0 in stage 6.0 (TID 176). 4231 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 175.0 in stage 6.0 (TID 181) (WintThandar, executor driver, partition 175, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 170.0 in stage 6.0 (TID 176) in 29 ms on WintThandar (executor driver) (170/200)
+22/11/24 21:19:58 INFO Executor: Running task 175.0 in stage 6.0 (TID 181)
+22/11/24 21:19:58 INFO Executor: Finished task 169.0 in stage 6.0 (TID 175). 4491 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 176.0 in stage 6.0 (TID 182) (WintThandar, executor driver, partition 176, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (258.3 KiB) non-empty blocks including 1 (258.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 169.0 in stage 6.0 (TID 175) in 36 ms on WintThandar (executor driver) (171/200)
+22/11/24 21:19:58 INFO Executor: Running task 176.0 in stage 6.0 (TID 182)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 171.0 in stage 6.0 (TID 177). 4273 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 177.0 in stage 6.0 (TID 183) (WintThandar, executor driver, partition 177, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 171.0 in stage 6.0 (TID 177) in 32 ms on WintThandar (executor driver) (172/200)
+22/11/24 21:19:58 INFO Executor: Running task 177.0 in stage 6.0 (TID 183)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (378.2 KiB) non-empty blocks including 1 (378.2 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 174.0 in stage 6.0 (TID 180). 4258 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 173.0 in stage 6.0 (TID 179). 4238 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 172.0 in stage 6.0 (TID 178). 4565 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 178.0 in stage 6.0 (TID 184) (WintThandar, executor driver, partition 178, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 174.0 in stage 6.0 (TID 180) in 28 ms on WintThandar (executor driver) (173/200)
+22/11/24 21:19:58 INFO Executor: Running task 178.0 in stage 6.0 (TID 184)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 179.0 in stage 6.0 (TID 185) (WintThandar, executor driver, partition 179, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 179.0 in stage 6.0 (TID 185)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 173.0 in stage 6.0 (TID 179) in 30 ms on WintThandar (executor driver) (174/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 180.0 in stage 6.0 (TID 186) (WintThandar, executor driver, partition 180, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 172.0 in stage 6.0 (TID 178) in 53 ms on WintThandar (executor driver) (175/200)
+22/11/24 21:19:58 INFO Executor: Running task 180.0 in stage 6.0 (TID 186)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (416.0 KiB) non-empty blocks including 1 (416.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 175.0 in stage 6.0 (TID 181). 4412 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 181.0 in stage 6.0 (TID 187) (WintThandar, executor driver, partition 181, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 181.0 in stage 6.0 (TID 187)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 175.0 in stage 6.0 (TID 181) in 34 ms on WintThandar (executor driver) (176/200)
+22/11/24 21:19:58 INFO Executor: Finished task 177.0 in stage 6.0 (TID 183). 4287 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (176.4 KiB) non-empty blocks including 1 (176.4 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 182.0 in stage 6.0 (TID 188) (WintThandar, executor driver, partition 182, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 177.0 in stage 6.0 (TID 183) in 34 ms on WintThandar (executor driver) (177/200)
+22/11/24 21:19:58 INFO Executor: Running task 182.0 in stage 6.0 (TID 188)
+22/11/24 21:19:58 INFO Executor: Finished task 176.0 in stage 6.0 (TID 182). 4170 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 183.0 in stage 6.0 (TID 189) (WintThandar, executor driver, partition 183, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 176.0 in stage 6.0 (TID 182) in 38 ms on WintThandar (executor driver) (178/200)
+22/11/24 21:19:58 INFO Executor: Running task 183.0 in stage 6.0 (TID 189)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (609.1 KiB) non-empty blocks including 1 (609.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 178.0 in stage 6.0 (TID 184). 4211 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 184.0 in stage 6.0 (TID 190) (WintThandar, executor driver, partition 184, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 184.0 in stage 6.0 (TID 190)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 178.0 in stage 6.0 (TID 184) in 31 ms on WintThandar (executor driver) (179/200)
+22/11/24 21:19:58 INFO Executor: Finished task 180.0 in stage 6.0 (TID 186). 4384 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 180.0 in stage 6.0 (TID 186) in 31 ms on WintThandar (executor driver) (180/200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 185.0 in stage 6.0 (TID 191) (WintThandar, executor driver, partition 185, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 185.0 in stage 6.0 (TID 191)
+22/11/24 21:19:58 INFO Executor: Finished task 181.0 in stage 6.0 (TID 187). 4068 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 186.0 in stage 6.0 (TID 192) (WintThandar, executor driver, partition 186, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Finished task 179.0 in stage 6.0 (TID 185). 4468 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 181.0 in stage 6.0 (TID 187) in 26 ms on WintThandar (executor driver) (181/200)
+22/11/24 21:19:58 INFO Executor: Running task 186.0 in stage 6.0 (TID 192)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 187.0 in stage 6.0 (TID 193) (WintThandar, executor driver, partition 187, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 187.0 in stage 6.0 (TID 193)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 179.0 in stage 6.0 (TID 185) in 35 ms on WintThandar (executor driver) (182/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (457.6 KiB) non-empty blocks including 1 (457.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 182.0 in stage 6.0 (TID 188). 4403 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 188.0 in stage 6.0 (TID 194) (WintThandar, executor driver, partition 188, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Running task 188.0 in stage 6.0 (TID 194)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 182.0 in stage 6.0 (TID 188) in 38 ms on WintThandar (executor driver) (183/200)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (670.0 KiB) non-empty blocks including 1 (670.0 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 183.0 in stage 6.0 (TID 189). 4580 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 189.0 in stage 6.0 (TID 195) (WintThandar, executor driver, partition 189, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 183.0 in stage 6.0 (TID 189) in 48 ms on WintThandar (executor driver) (184/200)
+22/11/24 21:19:58 INFO Executor: Running task 189.0 in stage 6.0 (TID 195)
+22/11/24 21:19:58 INFO Executor: Finished task 186.0 in stage 6.0 (TID 192). 4226 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 190.0 in stage 6.0 (TID 196) (WintThandar, executor driver, partition 190, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 186.0 in stage 6.0 (TID 192) in 31 ms on WintThandar (executor driver) (185/200)
+22/11/24 21:19:58 INFO Executor: Running task 190.0 in stage 6.0 (TID 196)
+22/11/24 21:19:58 INFO Executor: Finished task 187.0 in stage 6.0 (TID 193). 4477 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 185.0 in stage 6.0 (TID 191). 4305 bytes result sent to driver
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 191.0 in stage 6.0 (TID 197) (WintThandar, executor driver, partition 191, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Running task 191.0 in stage 6.0 (TID 197)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 192.0 in stage 6.0 (TID 198) (WintThandar, executor driver, partition 192, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 187.0 in stage 6.0 (TID 193) in 86 ms on WintThandar (executor driver) (186/200)
+22/11/24 21:19:58 INFO Executor: Running task 192.0 in stage 6.0 (TID 198)
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 185.0 in stage 6.0 (TID 191) in 88 ms on WintThandar (executor driver) (187/200)
+22/11/24 21:19:58 INFO Executor: Finished task 184.0 in stage 6.0 (TID 190). 4492 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 193.0 in stage 6.0 (TID 199) (WintThandar, executor driver, partition 193, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 184.0 in stage 6.0 (TID 190) in 90 ms on WintThandar (executor driver) (188/200)
+22/11/24 21:19:58 INFO Executor: Running task 193.0 in stage 6.0 (TID 199)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (284.1 KiB) non-empty blocks including 1 (284.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 190.0 in stage 6.0 (TID 196). 4372 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 189.0 in stage 6.0 (TID 195). 4364 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 194.0 in stage 6.0 (TID 200) (WintThandar, executor driver, partition 194, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 190.0 in stage 6.0 (TID 196) in 89 ms on WintThandar (executor driver) (189/200)
+22/11/24 21:19:58 INFO Executor: Running task 194.0 in stage 6.0 (TID 200)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 195.0 in stage 6.0 (TID 201) (WintThandar, executor driver, partition 195, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 189.0 in stage 6.0 (TID 195) in 92 ms on WintThandar (executor driver) (190/200)
+22/11/24 21:19:58 INFO Executor: Running task 195.0 in stage 6.0 (TID 201)
+22/11/24 21:19:58 INFO Executor: Finished task 188.0 in stage 6.0 (TID 194). 4681 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 196.0 in stage 6.0 (TID 202) (WintThandar, executor driver, partition 196, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 188.0 in stage 6.0 (TID 194) in 104 ms on WintThandar (executor driver) (191/200)
+22/11/24 21:19:58 INFO Executor: Running task 196.0 in stage 6.0 (TID 202)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (343.8 KiB) non-empty blocks including 1 (343.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (609.1 KiB) non-empty blocks including 1 (609.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (312.6 KiB) non-empty blocks including 1 (312.6 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+22/11/24 21:19:58 INFO Executor: Finished task 191.0 in stage 6.0 (TID 197). 4161 bytes result sent to driver
+22/11/24 21:19:58 INFO Executor: Finished task 192.0 in stage 6.0 (TID 198). 4346 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 197.0 in stage 6.0 (TID 203) (WintThandar, executor driver, partition 197, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 191.0 in stage 6.0 (TID 197) in 63 ms on WintThandar (executor driver) (192/200)
+22/11/24 21:19:58 INFO Executor: Running task 197.0 in stage 6.0 (TID 203)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 198.0 in stage 6.0 (TID 204) (WintThandar, executor driver, partition 198, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO Executor: Finished task 193.0 in stage 6.0 (TID 199). 4364 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 192.0 in stage 6.0 (TID 198) in 60 ms on WintThandar (executor driver) (193/200)
+22/11/24 21:19:58 INFO Executor: Running task 198.0 in stage 6.0 (TID 204)
+22/11/24 21:19:58 INFO TaskSetManager: Starting task 199.0 in stage 6.0 (TID 205) (WintThandar, executor driver, partition 199, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 193.0 in stage 6.0 (TID 199) in 60 ms on WintThandar (executor driver) (194/200)
+22/11/24 21:19:58 INFO Executor: Running task 199.0 in stage 6.0 (TID 205)
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (553.7 KiB) non-empty blocks including 1 (553.7 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (234.8 KiB) non-empty blocks including 1 (234.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Getting 1 (213.5 KiB) non-empty blocks including 1 (213.5 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) remote blocks
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+22/11/24 21:19:58 INFO Executor: Finished task 194.0 in stage 6.0 (TID 200). 4248 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 194.0 in stage 6.0 (TID 200) in 49 ms on WintThandar (executor driver) (195/200)
+22/11/24 21:19:58 INFO Executor: Finished task 196.0 in stage 6.0 (TID 202). 4220 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 196.0 in stage 6.0 (TID 202) in 47 ms on WintThandar (executor driver) (196/200)
+22/11/24 21:19:58 INFO Executor: Finished task 195.0 in stage 6.0 (TID 201). 4564 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 195.0 in stage 6.0 (TID 201) in 53 ms on WintThandar (executor driver) (197/200)
+22/11/24 21:19:58 INFO Executor: Finished task 199.0 in stage 6.0 (TID 205). 4271 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 199.0 in stage 6.0 (TID 205) in 30 ms on WintThandar (executor driver) (198/200)
+22/11/24 21:19:58 INFO Executor: Finished task 198.0 in stage 6.0 (TID 204). 4305 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 198.0 in stage 6.0 (TID 204) in 30 ms on WintThandar (executor driver) (199/200)
+22/11/24 21:19:58 INFO Executor: Finished task 197.0 in stage 6.0 (TID 203). 4647 bytes result sent to driver
+22/11/24 21:19:58 INFO TaskSetManager: Finished task 197.0 in stage 6.0 (TID 203) in 39 ms on WintThandar (executor driver) (200/200)
+22/11/24 21:19:58 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+22/11/24 21:19:58 INFO DAGScheduler: ResultStage 6 (collect at utils.scala:26) finished in 2.984 s
+22/11/24 21:19:58 INFO DAGScheduler: Job 4 is finished. Cancelling potential speculative or zombie tasks for this job
+22/11/24 21:19:58 INFO TaskSchedulerImpl: Killing all running tasks in stage 6: Stage finished
+22/11/24 21:19:58 INFO DAGScheduler: Job 4 finished: collect at utils.scala:26, took 7.407893 s
+22/11/24 21:19:58 INFO CodeGenerator: Code generated in 11.2149 ms
+22/11/24 21:41:43 INFO BlockManagerInfo: Removed broadcast_6_piece0 on WintThandar:52639 in memory (size: 28.0 KiB, free: 12.5 GiB)
+22/11/24 21:57:29 INFO SparkContext: Invoking stop() from shutdown hook
+22/11/24 21:57:29 INFO SparkUI: Stopped Spark web UI at http://WintThandar:4040
+22/11/24 21:57:29 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+22/11/24 21:57:29 INFO MemoryStore: MemoryStore cleared
+22/11/24 21:57:29 INFO BlockManager: BlockManager stopped
+22/11/24 21:57:29 INFO BlockManagerMaster: BlockManagerMaster stopped
+22/11/24 21:57:29 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+22/11/24 21:57:29 WARN SparkEnv: Exception while deleting Spark temp dir: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9
+java.io.IOException: Failed to delete: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9\sparklyr-master-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:105)
+	at org.apache.spark.SparkContext.$anonfun$stop$23(SparkContext.scala:2108)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1419)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2108)
+	at org.apache.spark.SparkContext.$anonfun$new$37(SparkContext.scala:661)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22/11/24 21:57:29 INFO SparkContext: Successfully stopped SparkContext
+22/11/24 21:57:29 INFO ShutdownHookManager: Shutdown hook called
+22/11/24 21:57:29 INFO ShutdownHookManager: Deleting directory C:\Users\wintt\AppData\Local\Temp\spark-c1caf1bb-e66a-4a8a-a79f-447baed0ff86
+22/11/24 21:57:29 INFO ShutdownHookManager: Deleting directory C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9
+22/11/24 21:57:29 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9
+java.io.IOException: Failed to delete: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9\sparklyr-master-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+22/11/24 21:57:29 INFO ShutdownHookManager: Deleting directory C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5
+22/11/24 21:57:29 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5
+java.io.IOException: Failed to delete: C:\Users\wintt\AppData\Local\spark\spark-3.1.3-bin-hadoop3.2\tmp\local\spark-66b7a5d9-7cc6-47be-a615-b8a1c37c6db5\userFiles-4c706b47-5ddb-4f48-9a25-df6fb5cd7ba9\sparklyr-master-2.12.jar
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:144)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
